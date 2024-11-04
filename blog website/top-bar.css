@@ -1,0 +1,32 @@
+/*start of top bar styles*/
+
+.top-bar {
+  background-color: #4c35de;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: rgb(0, 0, 0) 2px 0px 8px;
+}
+
+header {
+  font-size: 35px;
+  font-weight: bold;
+  color: #fffffe;
+}
+
+nav a {
+  color: #fffffe;
+  font-size: 20px;
+  padding: 0 10px;
+
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/*end of top bar styles*/

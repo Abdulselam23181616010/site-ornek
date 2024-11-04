@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(253, 253, 253);
+}
+
+button {
+  width: 338px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+  background-color: #4c35de;
+  border: none;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.55;
+}
